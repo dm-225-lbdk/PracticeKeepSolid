@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.mainbody {
+    overflow: hidden;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.codebox{
+    font-family: "'Courier New', monospace";
+    margin: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: rgb(233, 233, 233);
+}
+
+.rowbox{
+    display: flex;
+    height: 100%;
+}
+
+[name = "menu"]{
+    flex: 3;
+}
+
+[name = "content"]{
+    flex: 7;
+}
+
+iframe {
+    margin: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: rgb(244, 244, 244);
+    border: 0;
+}
+
+li{
+    font: size 24px;
+}
